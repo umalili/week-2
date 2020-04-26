@@ -243,6 +243,8 @@ body,html {
 
   }
   
+  /*大大寫的攻略參考*/
+  
   /* 最外圍 section 區域  =========== */
   .works{
   /*   文字置中 */
@@ -321,5 +323,3 @@ body,html {
 	color: #fff;
 	margin: 16px 0;
   }
-
-  
