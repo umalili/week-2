@@ -1,0 +1,325 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body,html {
+  font-family: Roboto, sans-serif;
+	margin: 0 auto;
+}
+
+.header{
+	background-image: url(https://i.ibb.co/gdQ90xB/hero.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+	width: 100%;
+	height: 960px;
+	margin-bottom: 64px;
+}
+
+.text-m{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	color: white;
+}
+
+.text-s{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 2;
+	margin-bottom: 64px;
+	color: white;
+}
+
+.text-l{
+	font-weight: 900;
+	font-style: italic;
+	font-size: 80px;
+	margin-bottom: 28px;
+	color: white;
+}
+
+.media li{
+	display: inline;
+	margin-right: 16px;
+}
+
+.header{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.about{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 56px;
+}
+
+.about img{
+	margin-bottom: 24px;
+}
+
+.h2-bl{
+	font-weight: 600;
+	font-size: 64px;
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+.info{
+	margin-bottom: 24px;
+}
+
+.border{
+	margin: 0 auto;
+	border-bottom: 1px solid #000;
+	width: 384px;
+	margin-bottom: 32px;
+}
+
+.info p{
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.3;
+	margin-bottom: 8px;
+	font-style: italic;
+}
+
+.about li{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 32px;
+	font-style: italic;
+}
+
+.job-item{
+  text-align: center;
+  font-size: 24px;
+  line-height: 42px;
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.job-item::before{
+	content:'';
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background-color: #891818;
+	border-radius:50%;
+	margin-left: -38px;
+	margin-top: 10px;
+  }
+
+  .brand{
+	  background-color: #000;
+	  color: #fff;
+  }
+
+  .container{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 56px;
+	padding-bottom: 160px;
+	text-align: center;
+  }
+
+  .brand-title{
+	font-weight: 600;
+	font-size: 64px;
+	font-style: italic;
+	margin-bottom: 16px;
+	padding-top: 64px;
+  }
+
+  .slogan{
+	font-weight: 400;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 2;
+	margin-bottom: 48px;
+  }
+
+  .brand-info{
+	font-weight: 400;
+	font-size: 20px;
+	font-family: 微軟正黑體,serif;
+	line-height: 2;
+	margin-bottom: 48px;
+  }
+
+  .product-wrap{
+	min-width: 100%;
+}
+
+.img-top{
+	margin-bottom: 40px;
+	width: 792px;
+	height: 416px;
+}
+
+/* 為了設定下排兩張圖中間的間距，在外容器使用flex */
+.product-flex {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .img-down {
+	width: 588px;
+	height: 416px;
+  }
+
+  .works{
+	background-image: url(../img/photo-1561291386-5be50364cfb5.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+	width: 100%;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	text-align: center;
+  }
+
+.footer{
+	color:#fff;
+	text-align: center;
+}
+
+.contact-wrap{
+	background-color: #000;
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+
+  }
+  
+  /* 最外圍 section 區域  =========== */
+  .works{
+  /*   文字置中 */
+	text-align: center;
+	background-image: url('../img/photo-1561291386-5be50364cfb5.png');
+	background-size: cover;
+	width: 100%;
+  }
+  
+  /* 外容器 =========== */
+  .container{
+	/*控制寬度 100%，最大為1200px*/
+	width: 100%;
+	max-width: 1200px;
+	/*margin 左右都設定 auto 可以置中。( 必須要設定寬度才有效果 ) */
+	margin: 0 auto;
+  /*  上面是縮寫，等同與 margin: 0 auto 0 auto */
+	
+  /* 設定容器邊界~ */
+	padding: 64px 0 120px;
+  }
+  
+  /*這裡是縮小時，內容不想碰到視窗邊緣而設定的*/
+  @media screen and (max-width:1200px){
+	.container{
+	  padding: 0 15px;
+	}
+  }
+  
+  /* 標題 =========== */
+  .works h2{
+  /*   文字大小設定 ps. 建議可以使用 rem 喔! 瀏覽器預設字體大小為16px，這邊就是 4rem */
+	font-size: 64px;
+	line-height: 75px;
+	font-weight: 900;
+	font-style: italic;
+	margin-bottom: 24px;
+  }
+  
+  /* 次標題 =========== */
+  .works h3,
+  .imgWrap p{
+  /*   同上面 */
+	font-size: 20px;
+	line-height: 42px;
+	font-weight: 500;
+  }
+  .works h3{
+	margin-bottom: 24px;
+  }
+  
+  /* 圖片區域外容器(包含文字) */
+  .works .imgWrap{
+	width: 100%;
+	display: flex;
+	/* 可以換成space-between感受一下? */
+	justify-content: space-around;
+	margin-bottom: 40px;
+  }
+  
+  /*   設定最大寬度後，縮小畫面才可以容納在視窗裡面 */
+  .works img{
+	width: 100%;
+  }
+  .img-width-384 img{
+	max-width: 384px;
+	height: auto;
+  }
+  .img-width-588 img{
+	max-width: 588px;
+	height: auto;
+  }
+  
+  /* 圖片說明 ( 因為與次標題樣式相同，所以也可以直接共用 class 喔 ) */
+  .imgWrap p{
+	color: #fff;
+	margin: 16px 0;
+  }
+
+  
